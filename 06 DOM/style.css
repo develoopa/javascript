@@ -1,0 +1,78 @@
+body {
+  font-family: Roboto;
+}
+
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  width: 20rem;
+  margin: 0.5rem;
+  height: 20rem;
+}
+
+.tarjeta img {
+  display: block;
+  max-height: 10rem;
+  max-width: 100%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo {
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.texto {
+  font-size: small;
+  margin: 0.5rem;
+}
+
+.precio {
+  font-weight: bold;
+  font-size: large;
+  margin: 0.5rem;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.botones {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.botones .boton {
+  color: white;
+  background-color: black;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  line-height: 2rem;
+  border-radius: 1rem;
+}
+
+.cantidad {
+  width: 1rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.botones .boton:hover {
+  cursor: pointer;
+}
